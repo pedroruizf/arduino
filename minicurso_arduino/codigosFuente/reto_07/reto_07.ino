@@ -1,7 +1,7 @@
 int led = 3;
 int ldr = 1;
 int medida = 0;
-int nivel = 900; //variable que guarda el límite de luz al que se activa el led
+int nivel = 970; //variable que guarda el límite de luz al que se activa el led
 
 void setup() {
   pinMode(led, OUTPUT);

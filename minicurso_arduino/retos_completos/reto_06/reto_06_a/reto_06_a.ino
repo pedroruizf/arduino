@@ -11,7 +11,7 @@ void setup () {
   pinMode(pulsador, INPUT);
 }
 void compruebaacierto() {
-  if (digitalRead(pulsador) == HIGH && n == 1) {
+  if (digitalRead(pulsador) == HIGH && n == 4) {
     digitalWrite(zumbador, HIGH);
     delay (1000);
     digitalWrite(zumbador, LOW);
